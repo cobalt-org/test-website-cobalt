@@ -1,5 +1,10 @@
 source: content
 destination: public
+ignore: ["script.sh"]
 site:
   title: "My New Cobalt Site"
   base_url: "http://example.org/"
+  sitemap: "sitemap.xml"
+pages:
+  default:
+    permalink: "/{{parent}}/{{name}}"
