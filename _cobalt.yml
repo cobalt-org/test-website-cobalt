@@ -1,0 +1,5 @@
+source: content
+destination: public
+site:
+  title: "My New Cobalt Site"
+  base_url: "http://example.org/"
